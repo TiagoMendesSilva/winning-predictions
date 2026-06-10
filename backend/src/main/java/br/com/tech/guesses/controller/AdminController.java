@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Map;
+
 @RestController
 @RequestMapping(value = "/verify")
 public class AdminController {
@@ -26,5 +28,10 @@ public class AdminController {
     public String authorities(Authentication authentication) {
         System.out.println(authentication.getAuthorities());
         return authentication.getAuthorities().toString();
+    }
+
+    @GetMapping(value = "/health")
+    public Map<String, String> health() {
+        return Map.of("status", "UP");
     }
 }

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "121656480060",
+    "project_id": "winning-predictions-9da50",
+    "storage_bucket": "winning-predictions-9da50.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:121656480060:android:b25f900477434cd8cece39",
+        "android_client_info": {
+          "package_name": "com.tiagomendessilva.mobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeLJEEvTYcun0s7jTlAO3oOn-AiDGJ_R4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

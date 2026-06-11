@@ -1,7 +1,7 @@
 {
   "name": "mobile",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "index.tsx",
   "dependencies": {
     "@react-native-async-storage/async-storage": "2.2.0",
     "@react-native-google-signin/google-signin": "^16.1.2",
@@ -28,8 +28,6 @@
     "ios": "expo run:ios",
     "web": "expo start --web"
   },
-  "overrides": {
-    "expo-modules-autolinking": "3.0.25"
-  },
+  "overrides": {},
   "private": true
 }

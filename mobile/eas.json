@@ -15,12 +15,14 @@
       "distribution": "internal",
       "android": {
         "buildType": "apk"
-      }
+      },
+      "prebuildCommand": "exit 0"
     },
     "production": {
       "android": {
         "buildType": "apk"
-      }
+      },
+      "prebuildCommand": "exit 0"
     }
   }
 }

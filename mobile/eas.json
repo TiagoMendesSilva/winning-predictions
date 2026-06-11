@@ -7,21 +7,20 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "buildType": "apk",
-        "withoutCredentials": false
+        "buildType": "apk"
       },
-      "withoutCredentials": false
-    },
-    "preview": {
-      "distribution": "internal",
-      "android": {
-        "buildType": "apk"
-      }
-    },
-    "production": {
-      "android": {
-        "buildType": "apk"
-      }
+      "prebuildCommand": "exit 0"
+    }
+  },
+  "preview": {
+    "distribution": "internal",
+    "android": {
+      "buildType": "apk"
+    }
+  },
+  "production": {
+    "android": {
+      "buildType": "apk"
     }
   }
 }

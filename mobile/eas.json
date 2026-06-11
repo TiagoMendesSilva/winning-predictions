@@ -10,17 +10,17 @@
         "buildType": "apk"
       },
       "prebuildCommand": "exit 0"
-    }
-  },
-  "preview": {
-    "distribution": "internal",
-    "android": {
-      "buildType": "apk"
-    }
-  },
-  "production": {
-    "android": {
-      "buildType": "apk"
+    },
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }
     }
   }
 }

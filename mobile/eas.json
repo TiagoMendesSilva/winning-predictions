@@ -7,9 +7,10 @@
       "developmentClient": true,
       "distribution": "internal",
       "android": {
-        "buildType": "apk"
+        "buildType": "apk",
+        "withoutCredentials": false
       },
-      "prebuildCommand": "echo 'skipping prebuild'"
+      "withoutCredentials": false
     },
     "preview": {
       "distribution": "internal",

@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getToken } from '../storage/token.storage';
 
 export const api = axios.create({
-  baseURL: 'http://192.168.15.2:8080'
+  baseURL: 'http://192.168.15.8:8080'
 });
 
 // Interceptor: adiciona o token em toda requisição automaticamente

@@ -11,4 +11,3 @@ export async function fetchMe(): Promise<UserStorage> {
   const response = await api.get('/auth/me');
   return response.data;
 }
-

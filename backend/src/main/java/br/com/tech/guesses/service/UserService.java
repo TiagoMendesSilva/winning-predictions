@@ -18,4 +18,10 @@ public class UserService {
     public List<User> findAll() {
         return userRepository.findAll();
     }
+
+    @Transactional(readOnly = true)
+    public User findByEmail(String email) {
+        return userRepository.findByEmail(email)
+                .orElseThrow(() -> new RuntimeException("Usuário autenticado não encontrado"));
+    }
 }

@@ -1,2 +1,2 @@
 alter table public.user
-add column google_id VARCHAR(255);
+ADD COLUMN IF NOT EXISTS google_id VARCHAR(255);

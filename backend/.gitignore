@@ -20,7 +20,7 @@ target/
 Thumbs.db
 
 # Environment
-.env
+application.properties
 
 # VS Code
 .vscode/

@@ -1,5 +1,5 @@
 ALTER TABLE public.user
-    ADD COLUMN role VARCHAR(30);
+ADD COLUMN IF NOT EXISTS role VARCHAR(30);
 
 UPDATE public.user
 SET role = 'ROLE_USER';

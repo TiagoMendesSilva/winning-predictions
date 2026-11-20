@@ -48,6 +48,7 @@ public class AuthController {
                 .name(user.getName())
                 .email(user.getEmail())
                 .pictureUrl(user.getPictureUrl())
+                .createdAt(user.getCreatedAt())
                 .build();
     }
 }
